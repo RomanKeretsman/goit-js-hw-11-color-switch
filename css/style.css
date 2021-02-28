@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 400px;
+}
+.btn {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: ivory;
+  cursor: pointer;
+}
+.start {
+    margin-right: 10px;
+    background-color: green;
+    
+}
+.stop {
+    margin-left: 10px;
+    background-color: red;
+}
+
+button,
+body {
+  transition: all 0.5s ease-in-out;
+}
